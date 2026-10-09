@@ -1,0 +1,42 @@
+Real-time object detection
+Real-time object detection
+7 tasks · No dates set in the saved export
+TASK / BUILD ACTIVITY
+DONE
+Define target objects and success criteria
+0%
+Unscheduled
+Select camera, model and compute
+0%
+Unscheduled
+Integrate real-time inference
+0%
+Unscheduled
+Evaluate accuracy and latency
+0%
+Unscheduled
+Run controlled detection demonstration
+0%
+Unscheduled
+Publish results and portfolio snapshot
+0%
+Unscheduled
+Maintain Phase 3 BOM and costs
+0%
+Unscheduled
+Task | System | Start | Finish | Progress | Notes | 
+Define target objects and success criteria
+Define the objects to detect, operating conditions and measurable detection criteria. | Software | Unscheduled | Unscheduled | 0% |  | 
+Select camera, model and compute
+Compare camera and computing options that support the chosen detection model and available payload. | Hardware | Unscheduled | Unscheduled | 0% |  | 
+Integrate real-time inference
+Integrate camera input and model inference, including time-stamped detection outputs. | Software | Unscheduled | Unscheduled | 0% |  | 
+Evaluate accuracy and latency
+Measure detection quality, processing latency and resource use on representative recordings. | Testing | Unscheduled | Unscheduled | 0% |  | 
+Run controlled detection demonstration
+Record a controlled object-detection demonstration and compare the results with the agreed criteria. | Testing | Unscheduled | Unscheduled | 0% |  | 
+Publish results and portfolio snapshot
+Summarize results and export the current schedule for the portfolio. | Software | Unscheduled | Unscheduled | 0% |  | 
+Maintain Phase 3 BOM and costs
+Keep the phase Excel BOM current with selected parts, quantities, purchase status and costs. Record only agreed purchases. | Financial | Unscheduled | Unscheduled | 0% |  | 
+Static snapshot of the saved schedule. Link this self-contained HTML file from the portfolio.

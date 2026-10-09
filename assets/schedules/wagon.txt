@@ -1,0 +1,128 @@
+Wagon schedule
+Wagon prototype development
+2026-07-08 to 2026-10-23 · 36 tasks · bars use inclusive finish dates
+Jul 2026
+Aug 2026
+Sep 2026
+Oct 2026
+Jul 6
+Jul 20
+Aug 3
+Aug 17
+Aug 31
+Sep 14
+Sep 28
+Oct 12
+Oct 26
+TASK / BUILD ACTIVITY
+DONE
+01 Purchasing
+100%
+01.1 Select major components
+100%
+01.2 Order prototype parts
+100%
+02 Hardware design
+100%
+02.1 Lay out mechanical interfaces
+100%
+02.2 Plan wiring and safety inputs
+100%
+03 Fabrication
+100%
+03.1 Fabricate and fit mounts
+100%
+03.2 Assemble and wire prototype
+100%
+04 First controller test
+100%
+04.1 Check inputs and enable behavior
+100%
+04.2 Run initial controller motion check
+100%
+05 OTA
+100%
+05.1 Add OTA service
+100%
+05.2 Verify disabled-state OTA path
+100%
+06 Web app
+100%
+06.1 Build live DAQ display
+100%
+06.2 Add basic control UI
+100%
+07 Ground station
+100%
+07.1 Build DAQ backend and state supervision
+100%
+07.2 Add recovery and run records
+100%
+08 Test jig
+100%
+08.1 Bring up LiDAR test instrumentation
+100%
+08.2 Validate recorded/recovered data path
+100%
+09 Ground station test integration
+100%
+09.1 Integrate recovery diagnostics
+100%
+09.2 Integrate controller configuration and test flow
+100%
+10 Analysis server
+100%
+10.1 Build Analysis service and LAN connection
+100%
+10.2 Connect run review workflow
+100%
+11 Controller design
+50%
+11.1 Review DAQ and controller terms
+100%
+11.2 Refine and review candidate gains
+0%
+12 Prototype survey
+0%
+12.1 Prepare prototype feedback survey
+0%
+12.2 Collect feedback and next changes
+0%
+
+Task | System | Start | Finish | Progress | 
+01 Purchasing | Financial | 2026-07-08 | 2026-07-17 | 100% | 
+01.1 Select major components | Financial | 2026-07-08 | 2026-07-10 | 100% | 
+01.2 Order prototype parts | Financial | 2026-07-11 | 2026-07-17 | 100% | 
+02 Hardware design | Hardware | 2026-07-13 | 2026-07-24 | 100% | 
+02.1 Lay out mechanical interfaces | Hardware | 2026-07-13 | 2026-07-17 | 100% | 
+02.2 Plan wiring and safety inputs | Hardware | 2026-07-18 | 2026-07-24 | 100% | 
+03 Fabrication | Hardware | 2026-07-25 | 2026-08-14 | 100% | 
+03.1 Fabricate and fit mounts | Hardware | 2026-07-25 | 2026-08-04 | 100% | 
+03.2 Assemble and wire prototype | Hardware | 2026-08-05 | 2026-08-14 | 100% | 
+04 First controller test | Testing | 2026-08-15 | 2026-08-17 | 100% | 
+04.1 Check inputs and enable behavior | Testing | 2026-08-15 | 2026-08-16 | 100% | 
+04.2 Run initial controller motion check | Testing | 2026-08-17 | 2026-08-17 | 100% | 
+05 OTA | Software | 2026-08-17 | 2026-08-17 | 100% | 
+05.1 Add OTA service | Software | 2026-08-17 | 2026-08-17 | 100% | 
+05.2 Verify disabled-state OTA path | Testing | 2026-08-17 | 2026-08-17 | 100% | 
+06 Web app | Software | 2026-08-18 | 2026-08-18 | 100% | 
+06.1 Build live DAQ display | Software | 2026-08-18 | 2026-08-18 | 100% | 
+06.2 Add basic control UI | Software | 2026-08-18 | 2026-08-18 | 100% | 
+07 Ground station | Software | 2026-08-18 | 2026-08-26 | 100% | 
+07.1 Build DAQ backend and state supervision | Software | 2026-08-18 | 2026-08-20 | 100% | 
+07.2 Add recovery and run records | Software | 2026-08-21 | 2026-08-26 | 100% | 
+08 Test jig | Testing | 2026-08-26 | 2026-09-03 | 100% | 
+08.1 Bring up LiDAR test instrumentation | Testing | 2026-08-26 | 2026-08-28 | 100% | 
+08.2 Validate recorded/recovered data path | Testing | 2026-08-29 | 2026-09-03 | 100% | 
+09 Ground station test integration | Testing | 2026-09-04 | 2026-09-09 | 100% | 
+09.1 Integrate recovery diagnostics | Software | 2026-09-04 | 2026-09-05 | 100% | 
+09.2 Integrate controller configuration and test flow | Testing | 2026-09-06 | 2026-09-09 | 100% | 
+10 Analysis server | Software | 2026-09-11 | 2026-10-01 | 100% | 
+10.1 Build Analysis service and LAN connection | Software | 2026-09-11 | 2026-09-17 | 100% | 
+10.2 Connect run review workflow | Software | 2026-09-18 | 2026-10-01 | 100% | 
+11 Controller design | Software | 2026-10-05 | 2026-10-16 | 50% | 
+11.1 Review DAQ and controller terms | Software | 2026-10-05 | 2026-10-06 | 100% | 
+11.2 Refine and review candidate gains | Software | 2026-10-07 | 2026-10-16 | 0% | 
+12 Prototype survey | Testing | 2026-10-19 | 2026-10-23 | 0% | 
+12.1 Prepare prototype feedback survey | Testing | 2026-10-19 | 2026-10-20 | 0% | 
+12.2 Collect feedback and next changes | Testing | 2026-10-21 | 2026-10-23 | 0% |

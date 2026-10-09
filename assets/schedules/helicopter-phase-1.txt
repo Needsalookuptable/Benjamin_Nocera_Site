@@ -1,0 +1,45 @@
+GPS waypoint following
+GPS waypoint following
+2026-10-01 to 2026-10-09 · 7 tasks · bars use inclusive finish dates
+Sep 2026
+Oct 2026
+Sep 28
+Sep 30
+Oct 2
+Oct 4
+Oct 6
+Oct 8
+Oct 10
+Oct 12
+TASK / BUILD ACTIVITY
+DONE
+Verify hardware
+100%
+Verify transmitter modes and takeover
+0%
+Prepare and simulate waypoint mission
+100%
+Validate normal flight and position hold
+100%
+Demonstrate waypoint flight and return
+100%
+Review logs and record results
+0%
+Maintain Phase 1 BOM and costs
+100%
+Task | System | Start | Finish | Progress | Notes | 
+Verify hardware
+Record the stock firmware version | Hardware | 2026-10-02 | 2026-10-05 | 100% |  | 
+Verify transmitter modes and takeover
+Confirm transmitter switches, flight modes and the established pilot takeover procedure. | Testing | 2026-10-06 | 2026-10-08 | 0% |  | 
+Prepare and simulate waypoint mission
+Prepare the waypoint route with the coordinate calculator and review it in Mission Planner before testing. | Software | 2026-10-02 | 2026-10-05 | 100% |  | 
+Validate normal flight and position hold
+Record normal flight and position-hold results before attempting the waypoint demonstration. | Testing | 2026-10-01 | 2026-10-02 | 100% |  | 
+Demonstrate waypoint flight and return
+Demonstrate the approved waypoint route and return behavior, recording the result and any interruptions. | Testing | 2026-10-06 | 2026-10-08 | 100% |  | 
+Review logs and record results
+Review the flight logs and capture evidence of the waypoint and return demonstration. | Software | 2026-10-08 | 2026-10-09 | 0% |  | 
+Maintain Phase 1 BOM and costs
+Keep the phase Excel BOM current with selected parts, quantities, purchase status and costs. Record only agreed purchases. | Financial | 2026-10-02 | 2026-10-05 | 100% |  | 
+Static snapshot of the saved schedule. Link this self-contained HTML file from the portfolio.

@@ -1,0 +1,47 @@
+/* Shared schedule-first project pages. Public visitors receive PNGs, not HTML editors. */
+.project-page { --project-space: clamp(24px, 4vw, 54px); }
+.project-page main { padding-bottom: 48px; }
+.project-page .project-header { padding-block: 38px 30px; }
+.project-page .project-header h1 { margin: 10px 0 16px; font-size: clamp(2.8rem,6vw,5.5rem); line-height:1; letter-spacing:-.05em; }
+.project-page .project-header p { max-width: 780px; color:#aebdc7; }
+.project-page .project-back { display:inline-flex; margin:0 0 14px; color:#aebdc7; text-decoration:none; }
+.schedule-panel { scroll-margin-top: 30px; padding-bottom: 50px; border-bottom:1px solid var(--line); }
+.schedule-panel h2 { margin:18px 0; font-size:clamp(1.5rem,3vw,2.25rem); line-height:1.2; letter-spacing:-.025em; }
+.schedule-topline { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; }
+.schedule-label { color:var(--accent); font-size:.72rem; font-weight:700; letter-spacing:.13em; }
+.snapshot-status, .schedule-help { color:#a5b5c1; font-size:.85rem; }
+.schedule-help { line-height:1.7; }
+.schedule-help a { text-underline-offset:4px; }
+.schedule-preview { display:block; width:100%; padding:16px; text-align:left; border:1px solid #304659; border-radius:16px; background:#0e1521; color:var(--text); cursor:zoom-in; }
+.schedule-preview img { display:block; width:100%; height:auto; max-height:600px; object-fit:contain; }
+.schedule-preview span { display:block; padding:12px 4px 0; color:var(--accent); font-size:.85rem; }
+.schedule-preview:hover { border-color:var(--accent); }
+.phase-selector { display:flex; gap:8px; flex-wrap:wrap; margin:16px 0; }
+.phase-selector button { padding:10px 14px; background:transparent; border:1px solid #304659; border-radius:8px; color:#bfccd5; font:inherit; font-size:.85rem; cursor:pointer; }
+.phase-selector button[aria-pressed="true"] { background:var(--accent); color:#06111b; border-color:var(--accent); }
+.schedule-viewer { padding:0; width:min(1500px,95vw); max-width:95vw; max-height:92vh; border:1px solid #42586d; border-radius:12px; color:var(--text); background:#0e1521; }
+.schedule-viewer::backdrop { background:rgba(0,0,0,.82); }
+.schedule-viewer-bar { display:flex; align-items:center; gap:12px; padding:14px 18px; border-bottom:1px solid #304659; }
+.schedule-viewer-bar h2 { margin:0 auto 0 0; font-size:1rem; }
+.schedule-viewer-bar button { font:inherit; font-size:.85rem; color:var(--text); border:1px solid #52677b; border-radius:7px; padding:8px 12px; background:#182335; cursor:pointer; }
+.schedule-viewer-scroll { overflow:auto; max-height:calc(92vh - 80px); overscroll-behavior:contain; }
+.schedule-viewer-scroll img { width:100%; max-width:none; height:auto; }
+.schedule-viewer-scroll.at-actual-size img { width:1440px; }
+html.schedule-viewer-open { overflow:hidden; }
+.project-page a:focus-visible, .project-page button:focus-visible { outline:3px solid var(--accent); outline-offset:5px; }
+/* Keep project images uncropped, including portrait electronics photos and diagrams. */
+.project-page .project-media:not(.project-media-wide) img { aspect-ratio:auto; max-height:760px; object-fit:contain; }
+.project-page .project-media-wide img { max-height:none; object-fit:contain; }
+.project-page .project-video video { aspect-ratio:4/3; object-fit:contain; }
+.project-page .case-study { padding-top:40px; }
+.project-page .project-meta { display:flex; flex-wrap:wrap; gap:8px; margin:20px 0; }
+.project-page .project-meta span { border:1px solid var(--line); padding:6px 10px; border-radius:99px; font-size:.78rem; color:#bccad3; }
+@media(max-width:720px) {
+  .project-page .nav { flex-wrap:wrap; gap:10px; padding-block:10px; }
+  .project-page .nav .nav-links { position:static; display:flex; flex-direction:row; flex-wrap:wrap; width:auto; padding:0; gap:8px; background:none; border:0; }
+  .project-page .nav .nav-links a { padding:7px; font-size:.8rem; }
+  .schedule-preview { padding:6px; }
+  .schedule-viewer-bar { flex-wrap:wrap; }
+  .schedule-viewer-bar h2 { width:100%; }
+  .schedule-viewer-scroll { max-height:calc(92vh - 125px); }
+}

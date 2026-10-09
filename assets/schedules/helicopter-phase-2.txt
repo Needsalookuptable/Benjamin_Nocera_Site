@@ -1,0 +1,42 @@
+Obstacle avoidance and SLAM
+Obstacle avoidance and SLAM
+7 tasks · No dates set in the saved export
+TASK / BUILD ACTIVITY
+DONE
+Define obstacle sensing requirements
+0%
+Unscheduled
+Compare sensors and onboard compute
+0%
+Unscheduled
+Integrate hardware and power
+0%
+Unscheduled
+Develop mapping and localization
+0%
+Unscheduled
+Simulate obstacle avoidance
+0%
+Unscheduled
+Run controlled avoidance demonstration
+0%
+Unscheduled
+Maintain Phase 2 BOM and costs
+0%
+Unscheduled
+Task | System | Start | Finish | Progress | Notes | 
+Define obstacle sensing requirements
+Define the sensing range, obstacle types and success criteria for the avoidance demonstration. | Software | Unscheduled | Unscheduled | 0% |  | 
+Compare sensors and onboard compute
+Compare sensing and computing options for mass, interfaces, power demand and mounting requirements. | Hardware | Unscheduled | Unscheduled | 0% |  | 
+Integrate hardware and power
+Plan and document sensor mounting, wiring and power integration before controlled tests. | Hardware | Unscheduled | Unscheduled | 0% |  | 
+Develop mapping and localization
+Develop and evaluate the mapping and localization pipeline with recorded or simulated data. | Software | Unscheduled | Unscheduled | 0% |  | 
+Simulate obstacle avoidance
+Evaluate avoidance behavior and failure cases in simulation before a physical demonstration. | Testing | Unscheduled | Unscheduled | 0% |  | 
+Run controlled avoidance demonstration
+Record the outcome of a controlled avoidance demonstration against the agreed criteria. | Testing | Unscheduled | Unscheduled | 0% |  | 
+Maintain Phase 2 BOM and costs
+Keep the phase Excel BOM current with selected parts, quantities, purchase status and costs. Record only agreed purchases. | Financial | Unscheduled | Unscheduled | 0% |  | 
+Static snapshot of the saved schedule. Link this self-contained HTML file from the portfolio.

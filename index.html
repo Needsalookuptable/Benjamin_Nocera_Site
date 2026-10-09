@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Benjamin Nocera — engineering and project portfolio" name="description"/>
+<title>Benjamin Nocera — Portfolio</title>
+<link href="styles.css" rel="stylesheet"/>
+<link href="portfolio-layout.css" rel="stylesheet"/>
+<link href="asset-stories.css" rel="stylesheet"/></head>
+<body>
+<div aria-hidden="true" class="ambient ambient-one"></div>
+<div aria-hidden="true" class="ambient ambient-two"></div>
+<header class="nav-wrap">
+<nav class="nav shell">
+<a aria-label="Back to top" class="wordmark" href="#top">
+<span class="wordmark-box">BN</span>
+<span class="wordmark-text" data-bind="name">Benjamin Nocera</span>
+</a>
+<button aria-controls="navLinks" aria-expanded="false" class="nav-toggle" id="navToggle">
+<span></span><span></span>
+<span class="sr-only">Menu</span>
+</button>
+<div class="nav-links" id="navLinks">
+<a href="#about">About</a>
+<a href="#work">Projects</a>
+<a href="#experience">Experience</a>
+<a href="#contact">Contact</a>
+<a class="nav-resume" href="resume.html" id="resumeNav">Résumé ↗</a>
+</div>
+</nav>
+</header>
+<main id="top">
+<section class="hero shell">
+<div class="hero-copy reveal">
+<div class="hero-kicker">
+<span class="kicker-line"></span>
+<span data-bind="hero.kicker">ENGINEERING + DESIGN + SOFTWARE</span>
+</div>
+<h1>
+<span data-bind="name">Benjamin Nocera</span>
+
+</h1>
+<div class="hero-actions">
+<a class="btn btn-primary" href="#work">View projects <span>↓</span></a>
+<a class="btn btn-ghost" href="resume.html" id="resumeHero">Résumé <span>↗</span></a>
+</div>
+<div class="hero-foot">
+<span class="status-dot"></span>
+<span data-bind="hero.status">Available for engineering opportunities.</span>
+</div>
+</div>
+<div class="hero-art reveal">
+<div class="portrait-frame">
+<img alt="Portrait of Benjamin Nocera" class="portrait" fetchpriority="high" height="642" src="assets/portrait.png" width="600"/>
+</div>
+</div>
+</section>
+<section aria-label="Portfolio highlights" class="quick-facts shell reveal" id="quickFacts"></section>
+<section class="section shell" id="about">
+<div class="section-label reveal"><span>01</span><span>ABOUT</span></div>
+<div class="about-layout">
+<div class="about-heading reveal">
+<h2 data-bind="about.heading">I care about how things work, how they are built, and how they can be better.</h2>
+</div>
+<div class="about-body reveal">
+<div id="aboutParagraphs"></div>
+<div class="capability-grid" id="capabilityGrid"></div>
+</div>
+</div>
+</section>
+<section class="section shell" id="work">
+<div class="section-label reveal"><span>02</span><span>PROJECTS</span></div>
+<div class="work-heading reveal">
+<h2 data-site-edit="home.projects.heading">My Individual Projects</h2>
+</div>
+<div class="project-grid" id="projectGrid"></div>
+</section>
+<section class="section shell" id="experience">
+<div class="section-label reveal"><span>03</span><span>RÉSUMÉ</span></div>
+<div class="experience-layout">
+<div class="experience-heading reveal">
+<h2><a aria-label="Open the resume" class="resume-cta" href="resume.html">Résumé ↗</a></h2>
+
+</div>
+<div class="timeline" id="timeline"></div>
+</div>
+</section>
+<section class="contact shell reveal" id="contact">
+<div class="contact-copy">
+<div class="section-label contact-label"><span>04</span><span>CONTACT</span></div>
+<h2 data-bind="contact.heading">Let’s build something useful.</h2>
+<p data-bind="contact.body">If you want to talk about a role, a project, or an interesting problem, send me a message.</p>
+</div>
+<div class="contact-links">
+<a class="contact-card" href="mailto:benjamin.e.nocera@gmail.com" id="emailLink">
+<span class="contact-icon">✉</span>
+<span><small>EMAIL</small><strong data-bind="links.email">benjamin.e.nocera@gmail.com</strong></span>
+<span class="contact-arrow">↗</span>
+</a>
+<a class="contact-card" href="#" id="linkedinLink" rel="noopener noreferrer" target="_blank">
+<span class="contact-icon">in</span>
+<span><small>LINKEDIN</small><strong>View profile</strong></span>
+<span class="contact-arrow">↗</span>
+</a>
+</div>
+</section>
+</main>
+<footer class="footer shell">
+<span data-bind="name">Benjamin Nocera</span>
+<span>HTML / CSS / JavaScript</span>
+<span id="footerYear"></span>
+</footer>
+<script src="content.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

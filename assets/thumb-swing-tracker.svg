@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Swing Tracker project thumbnail">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102b3d"/>
+      <stop offset="0.55" stop-color="#081823"/>
+      <stop offset="1" stop-color="#061018"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="75%" cy="22%" r="55%">
+      <stop offset="0" stop-color="#66e7ff" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#66e7ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity=".045"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="675" fill="url(#glow)"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <g fill="none" stroke="#66e7ff" stroke-opacity=".35" stroke-width="3">
+    <circle cx="845" cy="245" r="126"/><path d="M760 340c54-108 158-181 265-193"/><path d="M738 364c101-20 191-3 274 51"/>
+  </g>
+  <text x="70" y="500" fill="#66e7ff" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">MECH + SOFTWARE</text>
+  <text x="70" y="565" fill="#eef4f7" font-family="Arial, sans-serif" font-size="58" font-weight="700">Swing Tracker</text>
+  <text x="70" y="612" fill="#879ba8" font-family="Arial, sans-serif" font-size="21">PROJECT CASE STUDY</text>
+</svg>
