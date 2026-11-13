@@ -1,10 +1,10 @@
-/* Portfolio text: editable with the local in-page editor. */
+/* Helicopter Phase 1, Drone Phases 2–3. Editable in the local portfolio editor. */
 window.DRONE_PHASES = [
   {
     "id": "1",
-    "label": "Phase 1 · Autonomous GPS",
-    "title": "GPS waypoint flight completed",
-    "summary": "The first phase ends with the aircraft flying to GPS waypoints and landing without manual intervention.",
+    "label": "Phase 1 · Helicopter GPS",
+    "title": "Helicopter: autonomous GPS waypoints",
+    "summary": "Phase 1 used the RC helicopter to demonstrate GPS waypoint following and an autonomous landing without manual intervention.",
     "sections": [
       {
         "title": "Magnum, P.I. RC helicopter",
@@ -53,13 +53,37 @@ window.DRONE_PHASES = [
   },
   {
     "id": "2",
-    "label": "Phase 2 · Larger drone kit",
-    "title": "Building for greater payload capacity",
-    "summary": "A larger drone kit creates room and payload capacity for the next phase.",
+    "label": "Phase 2 · Drone platform",
+    "title": "Drone: increased payload capacity",
+    "summary": "The switch from the helicopter to a larger drone kit provides greater payload capacity and a bigger mounting platform for the next stage.",
     "sections": [
       {
-        "title": "A larger platform for Phase 2",
-        "text": "Phase 2 required more payload capacity and a larger mounting platform. I switched to a larger drone kit and built it to accommodate the additional hardware.",
+        "title": "Switching from helicopter to drone",
+        "text": "The helicopter completed the Phase 1 waypoint demonstration. For Phase 2, the system needed more payload capacity and a larger mounting platform for additional hardware, so I assembled a larger drone kit.",
+        "media": [
+          {
+            "id": "larger-drone-kit",
+            "type": "image",
+            "src": "assets/Helicopter_assets/IMG_6326.JPG",
+            "date": "",
+            "title": "The assembled Phase 2 drone",
+            "alt": "Photo of the larger drone kit built for Phase 2",
+            "caption": "Larger drone platform for greater payload and mounting space.",
+            "description": "Phase 2 uses a larger drone kit because the next experiments require more payload capacity and more physical space for mounting hardware. This photograph documents the newly built platform, separate from the helicopter used in Phase 1."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "label": "Phase 3 · Drone detection",
+    "title": "Drone: real-time object detection",
+    "summary": "The planned Phase 3 extends the drone platform to camera-based object detection.",
+    "sections": [
+      {
+        "title": "Next stage: onboard perception",
+        "text": "Phase 3 is planned around selecting the camera, model, and onboard compute hardware, then integrating and evaluating real-time object detection. The schedule tracks this work separately; results will be added as testing is completed.",
         "media": []
       }
     ]

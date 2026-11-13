@@ -71,6 +71,19 @@ window.PORTFOLIO_CONTENT = {
       "thumbnailAutoplay": true
     },
     {
+      "type": "PHASE 1 COMPLETE · PHASE 2 DRONE",
+      "title": "Helicopter / Drone",
+      "description": "Phase 1: autonomous helicopter GPS waypoint flight and landing. Phases 2–3: a larger drone platform for increased payload capacity, SLAM, and computer vision.",
+      "tags": [
+        "Flight planning",
+        "SLAM",
+        "Computer vision"
+      ],
+      "href": "projects/drone.html#schedule",
+      "thumbnail": "assets/Helicopter_assets/IMG_6326.JPG",
+      "thumbnailAlt": "Larger assembled drone platform for Phase 2"
+    },
+    {
       "type": "EMBEDDED SYSTEMS",
       "title": "Swing Tracker",
       "description": "A LiDAR beam-break sensor detects the swing near contact, triggering an ESP32 camera for automatic video capture.",
@@ -83,19 +96,6 @@ window.PORTFOLIO_CONTENT = {
       "thumbnail": "assets/generated/swing-tracker/bench-poster.webp",
       "thumbnailVideo": "assets/generated/swing-tracker/bench.mp4",
       "thumbnailAlt": "Swing Tracker breadboard, electronics and laptop from IMG_2722.mp4"
-    },
-    {
-      "type": "PHASE 1 COMPLETE · PHASE 2 BUILD",
-      "title": "Drone Project",
-      "description": "Autonomous GPS waypoint flight and landing demonstrated in Phase 1; a larger drone kit provides payload capacity and mounting space for Phase 2.",
-      "tags": [
-        "Flight planning",
-        "SLAM",
-        "Computer vision"
-      ],
-      "href": "projects/drone.html#schedule",
-      "thumbnail": "assets/Helicopter_assets/IMG_6260.JPG",
-      "thumbnailAlt": "Photograph supplied for the Helicopter project"
     }
   ],
   "experience": [
