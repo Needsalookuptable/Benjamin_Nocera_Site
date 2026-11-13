@@ -2,7 +2,8 @@
 (() => {
   'use strict';
   const host = document.querySelector('[data-build-phases]');
-  const phases = window.WAGON_PHASES;
+  const project = host?.dataset.phaseProject || 'wagon';
+  const phases = project === 'drone' ? window.DRONE_PHASES : window.WAGON_PHASES;
   if (!host || !Array.isArray(phases) || !phases.length) return;
   const tabs = host.querySelector('[data-phase-tabs]');
   const content = host.querySelector('[data-phase-content]');
@@ -18,7 +19,7 @@
     if (panel.dataset.loaded) return;
     panel.append(node('p', 'BUILD PHASE ' + phase.id, 'schedule-label'), node('h3', phase.title), node('p', phase.summary, 'phase-summary'));
     if (phase.empty) panel.append(node('p', phase.empty, 'phase-empty'));
-    if (window.AssetStories) window.AssetStories.mount(panel, phase.sections || [], 'wagon-phase-' + phase.id);
+    if (window.AssetStories) window.AssetStories.mount(panel, phase.sections || [], project + '-phase-' + phase.id);
     panel.dataset.loaded = 'true';
   }
   function select(id, updateHash = false, focus = false) {
@@ -35,19 +36,19 @@
     host.dataset.activePhase = id;
     if (status) status.textContent = phase.label;
     if (updateHash) { try { history.replaceState(null, '', '#phase-' + id); } catch {} }
-    document.dispatchEvent(new CustomEvent('portfolio-phase-change', {detail: {project: 'wagon', phase: id}}));
+    document.dispatchEvent(new CustomEvent('portfolio-phase-change', {detail: {project, phase: id}}));
   }
   tabs.replaceChildren(); content.replaceChildren();
   phases.forEach(phase => {
     if (!/^[0-9]+$/.test(phase.id)) throw Error('Invalid build phase ID');
     const button = node('button', phase.label); button.type = 'button';
-    button.id = 'wagon-phase-tab-' + phase.id;
+    button.id = project + '-phase-tab-' + phase.id;
     button.setAttribute('role', 'tab');
-    button.setAttribute('aria-controls', 'wagon-phase-panel-' + phase.id);
+    button.setAttribute('aria-controls', project + '-phase-panel-' + phase.id);
     button.setAttribute('aria-selected', 'false');
     button.dataset.buildPhase = phase.id;
     const panel = node('article', undefined, 'build-phase-panel');
-    panel.id = 'wagon-phase-panel-' + phase.id;
+    panel.id = project + '-phase-panel-' + phase.id;
     panel.setAttribute('role', 'tabpanel');
     panel.setAttribute('aria-labelledby', button.id);
     panel.tabIndex = 0; panel.hidden = true;

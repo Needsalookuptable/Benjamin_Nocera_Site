@@ -1,4 +1,4 @@
-/* Text edited locally through Start Portfolio Editor.bat. */
+/* Portfolio text: editable with the local in-page editor. */
 window.WAGON_PHASES = [
   {
     "id": "0",
@@ -136,7 +136,7 @@ window.WAGON_PHASES = [
     "id": "2",
     "label": "Phase 2 · Development & testing",
     "title": "The next wagon iteration",
-    "summary": "The updated test setup, control electronics, and data-acquisition recordings for Phase 2.",
+    "summary": "The second wagon iteration brought together test hardware, data acquisition, plant estimation, controller refinement, and a completed user test.",
     "sections": [
       {
         "title": "Test hardware",
@@ -213,6 +213,47 @@ window.WAGON_PHASES = [
             "caption": "Phase 2 test recording · IMG_6228.MOV.",
             "description": "This was the first test that used guesed PID values. It didn't preform well however it showed the system could receive state signals from the ground station and conduct a test with little human oversight for rapid controller tuning. This also demonstrated the requirement of an analysis server to examine the DAQ data and adjust the controller configuration accordingly.",
             "scheduleTask": "09 Ground station test integration"
+          }
+        ]
+      },
+      {
+        "id": "completion-results",
+        "title": "Completed testing and project handoff",
+        "text": "The final three milestones complete the development story: response testing, PEM model refinement, and the user test.",
+        "media": [
+          {
+            "type": "image",
+            "src": "assets/updates/wagon/completed-test.png",
+            "title": "Completed response test",
+            "description": "This graph shows a completed test in which the response ramped up, reached steady state, and returned.",
+            "alt": "Completed response test",
+            "caption": "Completed response test.",
+            "date": "",
+            "id": "completed-response",
+            "scheduleTask": "11 Controller design"
+          },
+          {
+            "type": "image",
+            "src": "assets/updates/wagon/pem-refinement.png",
+            "title": "PEM refinement and controller search",
+            "description": "I used PEM to refine the response and obtain a better plant estimate. That estimate supports a control-architecture search optimizer aimed at minimizing RMS error over a test set.",
+            "alt": "PEM refinement and controller search",
+            "caption": "PEM refinement and controller search.",
+            "date": "",
+            "id": "pem-refinement",
+            "scheduleTask": "11.2 Refine and review candidate gains"
+          },
+          {
+            "type": "video",
+            "src": "assets/updates/wagon/user-test.mp4",
+            "title": "User test · project completed",
+            "description": "The final user test demonstrated the completed wagon in use. The user was able to pull more weight than they otherwise could, without feeling as though they were pulling against the wagon.",
+            "alt": "User test · project completed",
+            "caption": "User test · project completed.",
+            "date": "",
+            "id": "completed-user-test",
+            "poster": "assets/updates/wagon/user-test-poster.webp",
+            "scheduleTask": "12.2 Collect feedback and next changes"
           }
         ]
       }

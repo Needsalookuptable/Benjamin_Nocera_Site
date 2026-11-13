@@ -77,17 +77,17 @@ DONE
 10.2 Connect run review workflow
 100%
 11 Controller design
-50%
+100%
 11.1 Review DAQ and controller terms
 100%
 11.2 Refine and review candidate gains
-0%
+100%
 12 Prototype survey
-0%
+100%
 12.1 Prepare prototype feedback survey
-0%
+100%
 12.2 Collect feedback and next changes
-0%
+100%
 
 Task | System | Start | Finish | Progress | 
 01 Purchasing | Financial | 2026-07-08 | 2026-07-17 | 100% | 
@@ -120,9 +120,9 @@ Task | System | Start | Finish | Progress |
 10 Analysis server | Software | 2026-09-11 | 2026-10-01 | 100% | 
 10.1 Build Analysis service and LAN connection | Software | 2026-09-11 | 2026-09-17 | 100% | 
 10.2 Connect run review workflow | Software | 2026-09-18 | 2026-10-01 | 100% | 
-11 Controller design | Software | 2026-10-05 | 2026-10-16 | 50% | 
+11 Controller design | Software | 2026-10-05 | 2026-10-16 | 100% | 
 11.1 Review DAQ and controller terms | Software | 2026-10-05 | 2026-10-06 | 100% | 
-11.2 Refine and review candidate gains | Software | 2026-10-07 | 2026-10-16 | 0% | 
-12 Prototype survey | Testing | 2026-10-19 | 2026-10-23 | 0% | 
-12.1 Prepare prototype feedback survey | Testing | 2026-10-19 | 2026-10-20 | 0% | 
-12.2 Collect feedback and next changes | Testing | 2026-10-21 | 2026-10-23 | 0% |
+11.2 Refine and review candidate gains | Software | 2026-10-07 | 2026-10-16 | 100% | 
+12 Prototype survey | Testing | 2026-10-19 | 2026-10-23 | 100% | 
+12.1 Prepare prototype feedback survey | Testing | 2026-10-19 | 2026-10-20 | 100% | 
+12.2 Collect feedback and next changes | Testing | 2026-10-21 | 2026-10-23 | 100% |

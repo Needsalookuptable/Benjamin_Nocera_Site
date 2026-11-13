@@ -1,4 +1,4 @@
-/* Portfolio wording; use the local browser editor or edit this file. */
+/* Portfolio text: editable with the local in-page editor. */
 window.PORTFOLIO_CONTENT = {
   "name": "Benjamin Nocera",
   "hero": {
@@ -55,6 +55,22 @@ window.PORTFOLIO_CONTENT = {
   ],
   "projects": [
     {
+      "type": "COMPLETED",
+      "title": "Powered Wagon",
+      "description": "A completed powered garden wagon: custom fabrication, control development, and a user test demonstrating intuitive assistance while carrying more weight.",
+      "tags": [
+        "CAD",
+        "Electrical",
+        "Fabrication",
+        "Control"
+      ],
+      "href": "projects/wagon.html#schedule",
+      "thumbnail": "assets/updates/wagon/user-test-poster.webp",
+      "thumbnailAlt": "User test of the completed powered wagon",
+      "thumbnailVideo": "assets/updates/wagon/user-test-preview.mp4",
+      "thumbnailAutoplay": true
+    },
+    {
       "type": "EMBEDDED SYSTEMS",
       "title": "Swing Tracker",
       "description": "A LiDAR beam-break sensor detects the swing near contact, triggering an ESP32 camera for automatic video capture.",
@@ -69,29 +85,15 @@ window.PORTFOLIO_CONTENT = {
       "thumbnailAlt": "Swing Tracker breadboard, electronics and laptop from IMG_2722.mp4"
     },
     {
-      "type": "TESTING IN PROGRESS",
-      "title": "Powered Wagon",
-      "description": "From a small RC control prototype to a powered garden wagon: custom fabrication, dual-motor drive, and a spring-loaded handle sensor.",
-      "tags": [
-        "CAD",
-        "Electrical",
-        "Fabrication",
-        "Control"
-      ],
-      "href": "projects/wagon.html#schedule",
-      "thumbnail": "assets/Wagon_assets/IMG_4419.jpeg",
-      "thumbnailAlt": "Powered wagon wheel and motor-mount assembly"
-    },
-    {
-      "type": "IN PROGRESS",
-      "title": "Helicopter",
-      "description": "An RC helicopter project planned in three phases: GPS waypoint following, obstacle avoidance and SLAM, and real-time object detection using AI native model.",
+      "type": "PHASE 1 COMPLETE · PHASE 2 BUILD",
+      "title": "Drone Project",
+      "description": "Autonomous GPS waypoint flight and landing demonstrated in Phase 1; a larger drone kit provides payload capacity and mounting space for Phase 2.",
       "tags": [
         "Flight planning",
         "SLAM",
         "Computer vision"
       ],
-      "href": "projects/helicopter.html#schedule",
+      "href": "projects/drone.html#schedule",
       "thumbnail": "assets/Helicopter_assets/IMG_6260.JPG",
       "thumbnailAlt": "Photograph supplied for the Helicopter project"
     }

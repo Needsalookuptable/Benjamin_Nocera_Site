@@ -1,3 +1,4 @@
+/* Portfolio text: editable with the local in-page editor. */
 window.PORTFOLIO_MEDIA_FILES = {
   "assets/Wagon_assets/Phase_2/IMG_6152.jpg": {
     "src": "assets/generated/wagon-phase-2/assembly.webp",
@@ -86,5 +87,21 @@ window.PORTFOLIO_MEDIA_FILES = {
     "height": 960,
     "type": "video",
     "checksum": "5511afb1618c7fdbb69a33800d4bc4f715148abe4369d3610943e7de881874de"
+  },
+  "assets/updates/wagon/user-test.mp4": {
+    "src": "assets/updates/wagon/user-test.mp4",
+    "poster": "assets/updates/wagon/user-test-poster.webp",
+    "width": 1280,
+    "height": 720,
+    "type": "video",
+    "checksum": "62c78dd251c8d16a448f08a94410718f9d7ac9434fd30d6bb0c1b6d648770428"
+  },
+  "assets/updates/drone/waypoints.mp4": {
+    "src": "assets/updates/drone/waypoints.mp4",
+    "poster": "assets/updates/drone/waypoints-poster.webp",
+    "width": 720,
+    "height": 1280,
+    "type": "video",
+    "checksum": "ddd70abf5e6b9330527f36f243cbf1a900ce0a9dc50479e8d00e5871283cc34d"
   }
 };
